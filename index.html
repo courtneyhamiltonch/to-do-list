@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<link rel="stylesheet" href="styles.css" />
+    <title>Axios Todo</title>
+   
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <form name="todoform" id="todoform">
+            <input class="input" type="text" name="title" placeholder="title">
+            <input class="input" type="number" name="price" placeholder="price">
+            <input class="input" type="text" name="description" placeholder="description">
+            <input class="input" type="text" name="imgUrl" placeholder="img url">
+            <button id="submit-btn">Submit</button>
+    </form>
+
+    <div id="list">
+    </div>
+
+    <div class="instructions">
+        <p>Scroll through the list to see all your todos.</p>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+      <script src="app.js"></script>
+</body>
+</html>
